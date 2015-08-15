@@ -84,8 +84,7 @@ module.exports = function(config) {
       'test.js'
     ],
     sauceLabs: {
-      testName: 'sauce-playground',
-      startConnect: false
+      testName: 'sauce-playground'
     },
     captureTimeout: 240000,
     customLaunchers: customLaunchers,
