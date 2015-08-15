@@ -1,0 +1,7 @@
+{
+  "name": "sauce-playground",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jstest": "1.0.5"
+  }
+}
