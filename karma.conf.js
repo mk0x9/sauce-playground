@@ -3,9 +3,9 @@ module.exports = function(config) {
     port: 9876,
     autoWatch: true,
     basePath: '',
+    frameworks: ['jasmine'],
     files: [
       'main.js',
-      'node_modules/jstest/jstest.js',
       'test.js'
     ],
     browsers: ['Chrome']

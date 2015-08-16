@@ -1,12 +1,6 @@
-JS.Test.describe('adder', function() { with(this) {
+describe('adder', function() {
 
-  it('sums', function() { with(this) {
-    assertEqual(adder(1, 2), 3);
-  }});
-
-  it('sums with Number.{MAX,MIN}_SAFE_INTEGER', function () { with(this) {
-    assertEqual(adder(Number.MAX_SAFE_INTEGER, Number.MIN_SAFE_INTEGER), 0);
-  }});
-}});
-
-JS.Test.autorun();
+  it('sums', function() {
+    expect(adder(1, 2)).toBe(3);
+  });
+});

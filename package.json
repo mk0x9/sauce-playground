@@ -6,8 +6,9 @@
     "test-ci": "node_modules/.bin/karma start karma.conf-ci.js"
   },
   "devDependencies": {
-    "jstest": "1.0.5",
+    "jasmine": "2.3.2",
     "karma": "0.13.9",
+    "karma-jasmine": "0.3.6",
     "karma-chrome-launcher": "0.2.0",
     "karma-sauce-launcher": "0.2.14"
   }

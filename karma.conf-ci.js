@@ -77,10 +77,10 @@ module.exports = function(config) {
     port: 9876,
     autoWatch: true,
     basePath: '',
+    frameworks: ['jasmine'],
     reporters: ['dots', 'saucelabs'],
     files: [
       'main.js',
-      'node_modules/jstest/jstest.js',
       'test.js'
     ],
     sauceLabs: {
